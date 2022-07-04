@@ -96,10 +96,12 @@ body {
 
 }
 
-.contact a {
+.contact a i {
     text-decoration: none !important;
     color: rgb(230, 172, 0) !important;
+    text-align: center !important;
 }
+
 
 
 
