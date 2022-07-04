@@ -103,3 +103,7 @@ body {
     color: rgb(230, 172, 0);
     font-size: 32px;
 }
+
+#contact a i:hover {
+    opacity: 0.9;
+}
