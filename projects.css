@@ -1,0 +1,8 @@
+.project-name {
+    color: rgb(230, 172, 0);
+    text-decoration: none;
+}
+
+h2:hover {
+    opacity: 0.7 !important;
+}
