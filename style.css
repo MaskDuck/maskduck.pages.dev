@@ -116,10 +116,11 @@ body {
     border: none;
     border-radius: 50% !important;
     background-color: rgb(230, 172, 0);
-    height: 50px;
-    width: 75px;
+    height: 55px;
+    width: 80px;
     text-decoration: none;
     margin-right: 5%;
+    font-size: medium;
 }
 
 
