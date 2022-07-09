@@ -3,135 +3,100 @@
 * {
     font-family: Outfit;
     text-decoration: none;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
+.container {
+    display: flex;
+    flex-direction: column;
+}
 
-#dropbtn {
-    display: block;
-    color: white;
-    padding: 16px;
+.nav {
+    width: 100vw;
+    height: 110px;
+    flex-direction: row;
+    display: flex;
+    background-color: rgb(255, 255, 255);
     border: none;
-    cursor: pointer;
-    background-image: url("assets/dropdown.png") !important;
-    background-size: 100%;
-    height: 50px;
-    width: 50px;
-    margin-left: 1250px;
-    margin-right: 1250px;
+    align-items: center;
+    justify-content: space-between;
+    box-shadow: 0px 0px 38px 7px rgba(0,0,0,0.5);
+-webkit-box-shadow: 0px 0px 38px 7px rgba(0,0,0,0.5);
+-moz-box-shadow: 0px 0px 38px 7px rgba(0,0,0,0.5);
 }
 
-
-
-/* The container <div> - needed to position the dropdown content */
-#dropdown-container {
-    position: relative;
-    display: inline-block;
+.navlinks {
+    margin-right: 45px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    gap: 20px;
 }
 
-/* Dropdown Content (Hidden by Default) */
-#dropdown-content {
-    display: none;
-    position: absolute;
-    background-color: #f9f9f9;
-    min-width: 160px;
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-    z-index: 1;
-    right: 0;
+.name-logo {
+    
+        margin-right: 45px;
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        gap: 20px;
+    
 }
-
-/* Links inside the dropdown */
-#dropdown-content a {
-    color: black;
-    padding: 12px 16px;
-    text-decoration: none;
-    display: block;
-}
-
-/* Change color of dropdown links on hover */
-#dropdown-content a:hover {background-color: #f1f1f1}
-
-/* Show the dropdown menu on hover */
-#dropdown:hover .dropdown-content {
-    display: block;
-}
-
-/* Change the background color of the dropdown button when the dropdown content is shown */
-#dropdown:hover .dropbtn {
-    background-color: #3e8e41;
-}
-
-
-#name-title {
-    text-align: center;
-}
-
-body {
-    background-color: rgb(242, 242, 242);
-}
-
-
-
-#name {
-    color: rgb(230, 172, 0)
-}
-
-#contact {
-    margin-top: 25px;
-    text-align: center;
-}
-
-#contact a i {
-    padding-right: 1em;
-}
-
-
-
-
-#avatar {
-    height: 250px;
-    width: 250px;
-    object-fit: cover;
-    image-resolution: snap;
-    margin-left: auto;
-    margin-right: auto;
-    display: block;
-    border-radius: 50%
-
-}
-
-#contact a i {
-    color: rgb(230, 172, 0);
-    font-size: 32px;
-}
-
-#contact a i:hover {
-    opacity: 0.7;
-}
-
-
 
 .nav-button {
-    float: right;
-    display: inline-block;
-    border: none;
-    border-radius: 50% !important;
+    font-size: 26px;
     background-color: rgb(230, 172, 0);
-    height: 55px;
-    width: 80px;
-    text-decoration: none;
-    margin-right: 5%;
-    font-size: medium;
+    color: black;
+    width: 110px;
+    height: 60px;
+    cursor: pointer;
+    transition: 600ms ease-in-out;
 }
-
-
-
-.divider {
-    width:5px;
-    height:auto;
-    display:inline-block;
-}
-
 
 .nav-button:hover {
-    opacity: 0.7;
+    box-shadow: 10px 10px 0px 0px rgba(0,0,0,0.75);
+-webkit-box-shadow: 10px 10px 0px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: 10px 10px 0px 0px rgba(0,0,0,0.75);
+}
+
+.logo {
+    height: 80px;
+    width: 80px;
+    border-radius: 50px;
+    margin-left: 25px;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    align-items: center;
+}
+
+.links {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 35px;
+}
+
+.link {
+    font-size: 50px;
+    color: #272727;
+    transition: 600ms ease-in-out;
+}
+
+.link:hover {
+    color: black;
+    transform: rotateZ(10deg);
+}
+
+.av {
+    width: 250px;
+    height: 250px;
+    margin-top: 50px;
+    border: none;
+    border-radius: 150px;
 }
