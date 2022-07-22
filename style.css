@@ -114,14 +114,16 @@ body {
     float: right;
     display: inline-block;
     border: none;
-    border-radius: 50% !important;
-    background-color: rgb(230, 172, 0);
+    background-color: rgb(242, 242, 242);
     height: 55px;
     width: 80px;
     text-decoration: none;
-    margin-right: 5%;
+    margin-right: 2%;
     font-size: medium;
+    color:rgb(230, 172, 0);
+    border-radius: 10%;
 }
+
 
 
 
@@ -134,4 +136,6 @@ body {
 
 .nav-button:hover {
     opacity: 0.7;
+    color:rgb(242, 242, 242);
+    background-color:rgb(230, 172, 0);
 }
