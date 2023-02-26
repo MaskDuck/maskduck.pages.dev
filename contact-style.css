@@ -7,18 +7,18 @@
 
 .underlined {
     text-decoration: underline;
-    text-decoration-color: rgb(230, 172, 0);
+    text-decoration-color: rgb(43, 239, 174);
     padding: 15px;
 
 }
 
 .codeblock {
     background-color: white;
-    color: rgb(230, 172, 0)
+    color: rgb(43, 239, 174)
 }
 
 .contact {
-    color: rgb(230, 172, 0)
+    color: rgb(43, 239, 174)
 }
 
 .contact:hover {
