@@ -1,13 +1,13 @@
 from __future__ import annotations
 import streamlit as st
-from dotenv import load_dotenv
+# from dotenv import load_dotenv
 
-load_dotenv()
-from os import environ
+# load_dotenv()
+# from os import environ
 
 col1a, col1b = st.columns(2)
 description = f"""
-<script src="{environ['FONTAWESOME_LINK']}" crossorigin="anonymous"></script>
+
 A developer who creates stupid and useless projects.\n
 If you want to contact me:\n
 Discord: :green[[MaskDuck#7325](https://discord.com/users/716134528409665586)]\n
