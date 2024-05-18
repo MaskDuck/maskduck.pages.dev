@@ -57,6 +57,7 @@ body {
 
 #name {
     color: #9ac8cb;
+
 }
 
 #contact {
@@ -69,7 +70,10 @@ body {
     padding-right: 0.35em;
 
     color: #9ac8cb !important;
+    transition: transform .2s;
 }
+
+
 
 #nohello {
     color: #9ac8cb;
@@ -81,7 +85,9 @@ body {
 #upper {display: flex}
 #left {
 flex: left; margin: auto}
-#right {flex: right; margin: auto}
+#right {flex: right; margin: auto; transition: transform .2s}
+#right:hover {
+transform: scale(1.1)}
 #avatar {
     height: 180px;
     width: 180px;
@@ -90,8 +96,13 @@ flex: left; margin: auto}
     margin-left: auto;
     margin-right: auto;
     display: block;
-    border-radius: 50%
+    border-radius: 50%;
+    transition: transform .2s;
 
+}
+
+#avatar:hover {
+    transform: scale(1.1)
 }
 
 #contact a i {
@@ -101,8 +112,13 @@ flex: left; margin: auto}
 
 #contact a i:hover {
     opacity: 0.7;
+    transform: scale(1.15);
 }
 
+#name:hover {
+    opacity: 0.7;
+
+}
 
 
 .nav-button {
