@@ -3,3 +3,13 @@
     align-items: center;
     margin-top: 1rem;
 }
+
+.hmoment {
+    color: #9ac8cb;
+}
+
+.hmoment:hover {
+    opacity: 0.7;
+}
+
+
