@@ -38,41 +38,31 @@
     z-index: 1;
     right: 0;
 }
-
-/* Links inside the dropdown */
-#dropdown-content a {
-    color: black;
-    padding: 12px 16px;
-    text-decoration: none;
-    display: block;
+.h1, .h3, #about-me {
+color: rgb(242, 242, 242);
 }
-
-/* Change color of dropdown links on hover */
-#dropdown-content a:hover {background-color: #f1f1f1}
-
-/* Show the dropdown menu on hover */
-#dropdown:hover .dropdown-content {
-    display: block;
-}
-
-/* Change the background color of the dropdown button when the dropdown content is shown */
-#dropdown:hover .dropbtn {
-    background-color: #3e8e41;
-}
-
-
 #name-title {
     text-align: center;
-}
+    color: rgb(242, 242, 242)
 
+}
+#about-me {
+    text-align: center;
+}
 body {
-    background-color: rgb(242, 242, 242);
+    background-color: #2b5154;
 }
-
+#infobox {
+    width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 30px;
+    background-color: #346265;
+}
 
 
 #name {
-    color: rgb(64, 119, 124)
+    color: #9ac8cb;
 }
 
 #contact {
@@ -81,15 +71,25 @@ body {
 }
 
 #contact a i {
-    padding-right: 1em;
+    padding-left: 1em;
+
+    color: #9ac8cb !important;
 }
 
+#nohello {
+    color: #9ac8cb;
+}
 
-
-
+#nohello:hover {
+    opacity: 0.7 !important;
+}
+#upper {display: flex}
+#left {
+flex: left; margin: auto}
+#right {flex: right; margin: auto}
 #avatar {
-    height: 250px;
-    width: 250px;
+    height: 180px;
+    width: 180px;
     object-fit: cover;
     image-resolution: snap;
     margin-left: auto;
