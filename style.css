@@ -51,6 +51,14 @@ color: rgb(242, 242, 242);
 }
 body {
     background-color: #2b5154;
+
+}
+
+#abcdefu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
 }
 #infobox {
     width: 800px;
