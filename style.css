@@ -74,12 +74,13 @@ body {
 }
 
 #contact {
-    margin-top: 25px;
+    margin-top: 1em;
     text-align: center;
 }
 
 #contact a i {
-    padding-left: 1em;
+    padding-left: 0.35em;
+    padding-right: 0.35em;
 
     color: #9ac8cb !important;
 }
