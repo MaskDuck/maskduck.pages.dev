@@ -40,15 +40,15 @@ body {
 }
 
 #abcdefu {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 90vh;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%)
 }
 #infobox {
     width: 800px;
-    margin-left: auto;
-    margin-right: auto;
+    padding-left: 1.5em;
+    padding-right: 1.5em;
     margin-bottom: 2em;
     border-radius: 30px;
     background-color: #346265;
@@ -84,8 +84,15 @@ body {
 }
 #upper {display: flex}
 #left {
-flex: left; margin: auto}
-#right {flex: right; margin: auto; transition: transform .2s}
+flex: left; margin: auto; }
+#right {flex: right; margin: auto; transition: transform .2s; }
+@media (max-width: 1000px) {
+#upper {
+    flex-direction: column
+}
+#infobox {
+    width: 75ch}
+}
 #right:hover {
 transform: scale(1.1)}
 #avatar {

@@ -23,7 +23,22 @@
 
     <div id="infobox">
             <br>
-        <h1 id="name-title">hi, I'm <span id="name">MaskDuck</span></h1>
+        <h1 id="name-title">hi, I'm <span id="name"></span></h1>
+                <!-- copied from W3Schools. -->
+                <script>
+var i = 0;
+var txt = 'MaskDuck';
+var speed = 180;
+
+function typeWriter() {
+  if (i < txt.length) {
+    document.getElementById("name").innerHTML += txt.charAt(i);
+    i++;
+                    setTimeout(typeWriter, speed);}
+};
+                    typeWriter()
+
+</script>
             <div id="upper">
         <div class="column" id="left">
         <img id="avatar" src="assets/avatar.png" alt="h" />
@@ -45,6 +60,7 @@
                     <a href="https://discord.com/users/716134528409665586" target="_blank"><img src="https://lanyard.cnrad.dev/api/716134528409665586?bg=346265" alt="h" /></a>
             </div>
                 </div>
+                <br>
             <h3 id="about-me">I'm a literature-powered duck who code stupid thing. <a id="nohello" href="https://nohello.net/en/" target="_blank">feel free to DM me on Discord</a>, but expect some stupid responses :)</h3>
 
             <br>
