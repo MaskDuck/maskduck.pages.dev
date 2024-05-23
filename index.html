@@ -23,22 +23,18 @@
 
     <div id="infobox">
             <br>
-        <h1 id="name-title">hi, I'm <span id="name"></span></h1>
-                <!-- copied from W3Schools. -->
-                <script>
-var i = 0;
-var txt = 'MaskDuck';
-var speed = 180;
+                <h1 id="name-title">hi, I'm <span id="name"></span></h1>
+                <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
 
-function typeWriter() {
-  if (i < txt.length) {
-    document.getElementById("name").innerHTML += txt.charAt(i);
-    i++;
-                    setTimeout(typeWriter, speed);}
-};
-                    typeWriter()
-
-</script>
+  <!-- Setup and start animation! -->
+  <script>
+    var typed = new Typed('#name', {
+      strings: ['MaskDuck', 'a talented shitposter', 'a literature enthusiast', 'a madhouse inpatient', 'a retired developer'],
+      typeSpeed: 96,
+                loop: true,
+                fadeOut: true,
+    });
+  </script> 
             <div id="upper">
         <div class="column" id="left">
         <img id="avatar" src="assets/avatar.png" alt="h" />
