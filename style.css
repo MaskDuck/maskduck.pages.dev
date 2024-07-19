@@ -2,7 +2,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Playwrite+HR+Lijeva:wght@200&display=swap');
 
 * {
-    font-family: Poppins;
     text-decoration: none;
     font-family: "Playwrite HR Lijeva", cursive;
   font-optical-sizing: auto;
@@ -10,6 +9,11 @@
   font-style: normal;
 }
 
+::selection { 
+color: rgb(242, 242, 242);
+
+    background: #1a3132;
+}
 
 #dropbtn {
     display: block;
